@@ -198,5 +198,5 @@ bot.on('ready',function(){
 });
 
 //Para ele fazer login:
-bot.login (config.token);
+bot.login (process.env.token);
 
